@@ -1,5 +1,17 @@
-html,
-body {
-  margin: 0;
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items > li {
   padding: 10px;
+}
+
+.nav-image {
+  width: 60px;
 }
