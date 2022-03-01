@@ -26,37 +26,10 @@ excited to be learning React :)
 
 Render your list to the page
 */
-function Header() {
-  return (
-    <header>
-      <nav className="nav">
-        <img src="react-logo.png" className="nav-image" />
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>Contact</li>
-          <li>About</li>
-        </ul>
-      </nav>
-    </header>
-  );
-}
 
-function MainContent() {
-  return (
-    <div>
-      <h1>Top reasons I am excited to learn react</h1>
-      <ul>
-        <li>I am excited to build out the Dreamland frontend using react</li>
-        <li>I am excited to add it to my resume lol</li>
-        <li>I like it more than vue already</li>
-      </ul>
-    </div>
-  );
-}
-
-function Footer() {
-  return <footer>© 2022 Silber development. All rights reserved.</footer>;
-}
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import MainContent from "./components/MainContent";
 
 function Page() {
   return (
